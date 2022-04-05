@@ -1,0 +1,115 @@
+{
+    "intents" :[
+        {
+            "tag" : "greeting",
+            "patterns" : [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Halo",
+                "what's up?"
+            ],
+            "responses": [
+                "ada yang bisa dibantu?",
+                "ada yang bisa saya bantu?",
+                "saya adalah Bot.",
+                "ada yang bisa saya bantu?"
+              ],
+            "context_set": ""
+        },
+        {
+          "tag": "thanks",
+          "patterns": [
+            "Terimakasih",
+            "Okay",
+            "Ok",
+            "Makasih",
+            "Makasih ya",
+            "Thanks"
+          ],
+          "responses": [
+            "Senang membantu anda.",
+            "Okay, sama sama.",
+            "Hubungi saya kalau anda ingin mencari referensi lagi",
+            "Sama sama",
+            "You're welcome"
+          ]
+        },
+        {
+          "tag": "kabar",
+          "patterns": [
+            "Apa kabar?",
+            "Bagaimana kabarnya?",
+            "Gimana kabarnya?",
+            "Gmn kabarnya?"
+          ],
+          "responses": [
+            "Kabar saya baik.",
+            "Luar biasa.",
+            "Baik sekali hari ini",
+            "Alhamdulillah, baik.",
+            "I'm good",
+            "I'm well"
+          ]
+        },
+        {
+            "tag": "lokasi",
+            "patterns":[
+                "lokasi prosa dimana ?",
+                "dimana lokasi prosa.ai ?",
+                "lokasi ?",
+                "lokasi dimana ?"
+            ],
+            "responses": [
+                "kami berlokasi Jl. Dr. Otten No.10, Pasir Kaliki, Kec. Cicendo, Kota Bandung, Jawa Barat 40171"
+            ]
+        },
+        {
+            "tag": "posisi",
+            "patterns":[
+                "posisi di prosa ada apa saja ?",
+                "posisi ada apa saja ?",
+                "posisi apa aja yang ada di prosa ?",
+                "pekerjaan apa aja yang ada di prosa?",
+                "posisi apa yang sedang dibutuhkan di prosa"
+            ],
+            "responses":[
+                "di perusahan kami, terdapat divisi UX Designer, Project Manager, System Assurance, CPO, CFO, Custemer Engagement, Full Stack Engineer, System Engineer, Back-end Engineer, Front-End Engineer",
+                "di perusahan kami, kami sedang membutuhkan posisi UX Designer, Project Manager, System Assurance, CPO, CFO, Custemer Engagement, Full Stack Engineer, System Engineer, Back-end Engineer, Front-End Engineer",
+                "posisi di perusahaan kami adalah UX Designer, Project Manager, System Assurance, CPO, CFO, Custemer Engagement, Full Stack Engineer, System Engineer, Back-end Engineer, Front-End Engineer"
+
+            ]            
+        },
+        {
+            "tag":"kape",
+            "patterns": [
+                "apakah saya bisa kape ditempat anda ?",
+                "apakah saya bisa kerja praktik di prosa ?",
+                "apakah saya boleh mengajukan kerja praktik di perusahaan anda ?",
+                "bolehkah saya kape di tempat anda ?"
+            ],
+            "responses": [
+                "boleh, kami sangat terbuka tentang itu",
+                "sangat boleh sekali, kami akan senang bila kamu mendaftar",
+                "sangat bisa sekali, kami senang bisa bekerja sama dengan mu di perusahaan kami"
+            ]
+        },
+        {
+            "tag":"goodbye",
+            "patterns":[
+                "see you latter",
+                "sampai jumpa lagi",
+                "bye",
+                "good bye",
+                "sampai ketemu kembali"
+            ],
+            "responses":[
+                "goodbye, terimakasih sudah menghubungi kami",
+                "terima kasih atas waktu mu, sampai jumpa lagi",
+                "goodbye!",
+                "bye bye",
+                "see yoo too"
+            ]
+        }
+    ]
+}
